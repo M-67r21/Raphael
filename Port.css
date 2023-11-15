@@ -1,0 +1,124 @@
+.nav{
+    width: 100%;
+    position: fixed;
+    display: flex; 
+    top: 0%;
+}
+label{
+   font-size: 35px; 
+   padding-left: 100px;
+   color: rgb(6, 6, 80);
+}
+nav{ 
+    width: 100%;
+    height: 70px;
+    flex:1;
+    background-color: rgb(246, 255, 255);
+    padding-top: 20px;
+    padding-right: 100px;
+}
+nav ul{
+    float: right;
+    margin-right:none;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: 60px;
+    height: px;
+    
+
+    
+}
+nav ul li a{
+    color: rgb(6, 6, 80);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: #1c9e22;
+}
+
+/* Div Project */
+.one{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.mar{
+    width: 33%;
+}
+.mar img{
+    border-radius: 10px;
+}
+.web{
+    width: 33%;
+}
+.web img{
+    border-radius: 10px;
+}
+.UI{
+    width: 33%;
+}
+.UI img{
+    border-radius: 10px;
+}
+
+.two{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.lysis{
+    width: 33%;
+}
+.lysis img{
+    border-radius: 10px;
+}
+.port{
+    width: 33%;
+}
+.port img{
+    border-radius: 10px;
+}
+
+/* Footer */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    background-color: rgb(250, 250, 237);
+    width: 100%;
+}
+.footer{
+    display: flex;
+    color: rgb(6, 6, 80);
+    font-size: 15px;
+    height: 250px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.rap{
+    width: 33%;
+}
+.useful{
+    width: 33%;
+}
+.socials{
+    width: 33%;
+}
+hr{
+  color: black;  
+  width: 100%;
+
+}
+.copy{
+    color: rgb(6, 6, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    /* align-items: center; */
+    text-align: center;
+}
