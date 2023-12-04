@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .nav{
     width: 100%;
     position: fixed;
@@ -48,11 +51,12 @@ nav ul li a:hover{
 /* Div me */
 .me{
     display: flex;
-    margin-top: 100px;
+    margin-top: 90px;
     color: rgb(6, 6, 80);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    padding-left: 100px;
     background-color: ghostwhite;
 }
 .intro{
@@ -96,10 +100,14 @@ nav ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: rgb(6, 6, 80);
-    
     text-align: center;
     background-color: cornsilk;
+    justify-content:center ;
+    align-items: center;
+    padding: 30px 300px;
+    /* margin-top: 50px; */
 }
+
 .resume{
     background-color: coral;
     border-radius: 5px;
@@ -112,7 +120,9 @@ nav ul li a:hover{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(250, 247, 242);
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .serv{
     color: rgb(6, 6, 80);
@@ -121,26 +131,39 @@ nav ul li a:hover{
     padding-left: 100px;
 }
 .serv p{
-    font-size: 16px;
+    font-size: 26px;
+    margin-top: 180px;
     
 }
 .serv h2{
-    font-size: 26px;
+    font-size: 40px;
+}
+.pot{
+    background-color: coral;
+    border-radius: 5px;
+    color: rgb(6, 6, 80);
+    font-size: 20px; 
+    text-decoration: none;
 }
 .dig{
     border-style: outset;
+    height: 150px;
 }
 .front{
     border-style: outset;
+    height: 150px;
 }
 .UX{
     border-style: outset;
+    height: 150px;
 }
 .data{
     border-style: outset;
+    height: 150px;
 }
 .IT{
     border-style: outset;
+    height: 150px;
 }
 .include{
     color: rgb(6, 6, 80);
@@ -158,9 +181,10 @@ nav ul li a:hover{
 /* Footer */
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
-    background-color: rgb(250, 250, 237);
+    /* margin-top: 100px; */
+    background-color: rgb(255, 255, 181);
     width: 100%;
+    padding-top: 50px;
 }
 .footer{
     display: flex;

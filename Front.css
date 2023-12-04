@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .nav{
     width: 100%;
     position: fixed;
@@ -44,56 +47,53 @@ nav ul li a:hover{
     color: #1c9e22;
 }
 
-/* Div Project */
-.project a{
-    text-decoration: none;
+/* Content */
+.Pro{
+    background-color: rgb(243, 240, 187);
 }
-.one{
-    display: flex;
-    margin-top: 150px;
-    margin-left: 100px;
-}
-.mar{
-    width: 33%;
-}
-.mar img{
-    border-radius: 10px;
-}
-.web{
-    width: 33%;
-}
-.web img{
-    border-radius: 10px;
-}
-.UI{
-    width: 33%;
-}
-.UI img{
-    border-radius: 10px;
+.head{
+    margin-top: 90px;
+    padding: 0 100px;
 }
 
-.two{
+.Web{
     display: flex;
-    margin-top: 150px;
-    margin-left: 100px;
+    flex-direction: row;
+    padding: 50px 100px;
+    
 }
-.lysis{
+.calc{
     width: 33%;
+    padding-right: 60px;
 }
-.lysis img{
-    border-radius: 10px;
-}
-.port{
+
+.rock{
     width: 33%;
+    padding-right: 60px;
 }
-.port img{
-    border-radius: 10px;
+
+.etch{
+    width: 33%;
+    padding-right: 60px;
+}
+
+.vie{
+    background-color: rgb(255, 233, 225);
+    border-radius: 5px;
+    color: rgb(6, 6, 80);
+    font-size: 18px; 
+}
+.hub{
+    background-color: rgb(255, 233, 225);
+    border-radius: 5px;
+    color: rgb(6, 6, 80);
+    font-size: 18px; 
 }
 
 /* Footer */
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: rgb(250, 250, 237);
     width: 100%;
 }
